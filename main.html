@@ -8,6 +8,26 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form>
+		<label for="name">Name</label>
+		<input type="text" id="name" placeholder="Name"><br>
+		<label for="phone">Phone Number</label>
+		<input type="text" id="phone" placeholder="Phone Number"><br>
+		<label for="address">Address</label>
+		<input type="text" id="address" placeholder="address"><br>
+		<label for="dogExperience">Have you ever lived with a Dog before?</label>
+        <input type="checkbox" id="dogExperience" name="dogExperience" value="Have you ever lived with a Dog before?"><br>
+		<label for="breeds">Please select your preferred breeds</label>
+                <select id="breeds" name="breeds[]" multiple="multiple" required>
+                    <option value="Breed 1">Breed 1</option>
+                    <option value="Breed 2">Breed 2</option>
+                    <option value="Breed 3">Breed 3</option>
+                    <!-- Add more breed options as needed -->
+                </select><br>
+		<label for="submit"></label>
+		<input type="submit" value="Submit" id="submit">
+		
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
